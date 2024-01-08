@@ -1,4 +1,4 @@
-FROM debian:latest
+nikolaik/python-python3.10
 
 RUN apt update && apt upgrade -y
 RUN apt install git python3-pip -y
