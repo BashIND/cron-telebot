@@ -1,4 +1,4 @@
-nikolaik/python-python3.10
+FROM ubuntu:20.04
 
 RUN apt update && apt upgrade -y
 RUN apt install git python3-pip -y
